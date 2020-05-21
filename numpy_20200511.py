@@ -49,3 +49,52 @@ print(km_total)
 
 ano_atual, ano_fabricacao, km_total = 2019, 2003, 44410
 
+print (ano_atual, ano_fabricacao, km_total)
+
+#%% Aula 2 - Vídeo 7 - Tipos de Dados
+
+nome = "Suele Sousa"
+print(type(nome))
+nome2 = "Suele 'Sousa'"
+print(nome2)
+carro = '''
+nome
+idade
+nota
+'''
+print(type(carro))
+
+#%% Aula 2 - Vídeo 9 - Conversão de Tipos
+
+a = 10
+b = 20
+c = "Python é "
+d = "legal."
+
+print(a + b)
+print(c + d)
+print(c + str(a)) 
+print(float(a))
+
+var = 3.143839
+
+print(int(var))
+
+
+text = 'A quilometragem média do veículo é '
+Km = 100000
+Ano_atual = 2019
+Ano_fabricacao = 1999
+
+print(text + str( int( Km / (Ano_atual - Ano_fabricacao) ) ) + ' km')
+
+#%% Aula 2 - Vídeo 11 - Conversão de Tipos
+
+print("Olá,  {}! Esse é seu acesso de número {}.".format("Rodrigo", 32))
+
+print("Olá, {nome}! Esse é seu acesso de número {acesso}.".format(nome = "Rodrigo", acesso =32))
+
+nome = "Rodrigo"
+acesso = 32
+
+print(f"Olá {nome}, seu número de acesso é {acesso}.")
